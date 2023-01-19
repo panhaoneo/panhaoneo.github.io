@@ -5,7 +5,8 @@ baseurl: /blog
 url: 'https://panhaoneo.github.io'
 twitter_username: ''
 github_username: panhaoneo
-theme: dinky
+remote_theme: pages-themes/dinky@v0.2.0
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
