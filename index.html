@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://www.ttmath.org/static/uikit/css/uikit.ttmath.min.css">
+    <script src="https://www.ttmath.org/common/uikit/uikit-3.6.22/js/uikit.min.js"></script>
+    <script src="https://www.ttmath.org/common/uikit/uikit-3.6.22/js/uikit-icons.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.ttmath.org/common/htmx/1.4.1/dist/htmx.min.js"></script>
+    <script>htmx.on("htmx:afterOnLoad", function(evt) {
+	
+	
+	var winix_elements = htmx.findAll(".winix-auto-delete");
+	
+	for(var i=0 ; i<winix_elements.length ; ++i)
+	{
+		console.log("removing:");
+		console.log(winix_elements[i]);
+		htmx.remove(winix_elements[i]);
+	}
+	
+	});
+	</script>
+    <title>ttmath.org / Bignum C++ library</title>
+    <meta name="description" content="TTMath - a bignum library for C++">
+    <meta name="keywords" content="ttmath, bignum, library, c++, calculator">
+    <link rel="stylesheet" href="https://www.ttmath.org/static/styles.css" type="text/css">
+    <link rel="icon" type="image/png" href="https://www.ttmath.org/static/favicon_32x32.png">
+    <link rel="apple-touch-icon" href="https://www.ttmath.org/static/favicon_60x60.png">
+    <script>htmx.on("htmx:afterRequest", function(evt) {UIkit.offcanvas('#ttmath-offcanvas-menu').hide();});</script>
+  </head>
+  <body>
+    <div id="winix_container_outer">
+      <div id="winix_container">
+        <div id="ttmath-offcanvas-menu" data-uk-offcanvas="overlay: true; flip: true">
+          <div class="uk-offcanvas-bar uk-background-defaultXXX">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav uk-nav-default" hx-target=".winix-main-content" hx-push-url="true" hx-swap="innerHTML">
+              <li><a href="https://www.ttmath.org/ttmath" hx-get="/ttmath">ttmath</a></li>
+              <li><a href="https://www.ttmath.org/faq" hx-get="/faq">faq</a></li>
+              <li><a href="https://www.ttmath.org/changelog" hx-get="/changelog">changelog</a></li>
+              <li><a href="https://www.ttmath.org/_download" hx-get="/_download">download</a></li>
+              <li><a href="https://www.ttmath.org/samples" hx-get="/samples">samples</a></li>
+              <li><a href="https://www.ttmath.org/online_calculator" hx-get="/online_calculator">online calculator</a></li>
+              <li><a href="https://www.ttmath.org/forum" hx-get="/forum">forum</a></li>
+            </ul>
+            <div class="uk-margin">
+              <a href="http://sourceforge.net/projects/ttmath">
+                <img src="https://sflogo.sourceforge.net/sflogo.php?group_id=186304&amp;type=1" width="88" height="31" alt="SourceForge.net Logo">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="winix_header">
+          <div id="winix_header_left">
+            <div id="winix_main_logo">
+              <a href="https://www.ttmath.org">Home page</a>
+            </div>
+          </div>
+          <div id="winix_header_right">
+            <div id="ttmath_mobill_menu">
+              <button class="uk-button" uk-toggle="target: #ttmath-offcanvas-menu" type="button"><span data-uk-icon="menu"></span>
+                 Menu</button>
+            </div>
+          </div>
+        </div> <!-- winix_header --> 
+        <div id="winix_middle">
+          <div id="winix_contentleft">
+            <div id="ttmath_normal_menu_container">
+              <ul class="uk-nav uk-nav-default" hx-target=".winix-main-content" hx-push-url="true" hx-swap="innerHTML">
+                <li><a href="https://www.ttmath.org/ttmath" hx-get="/ttmath">ttmath</a></li>
+                <li><a href="https://www.ttmath.org/faq" hx-get="/faq">faq</a></li>
+                <li><a href="https://www.ttmath.org/changelog" hx-get="/changelog">changelog</a></li>
+                <li><a href="https://www.ttmath.org/_download" hx-get="/_download">download</a></li>
+                <li><a href="https://www.ttmath.org/samples" hx-get="/samples">samples</a></li>
+                <li><a href="https://www.ttmath.org/online_calculator" hx-get="/online_calculator">online calculator</a></li>
+                <li><a href="https://www.ttmath.org/forum" hx-get="/forum">forum</a></li>
+              </ul>
+              <div class="uk-margin">
+                <a href="http://sourceforge.net/projects/ttmath">
+                  <img src="https://sflogo.sourceforge.net/sflogo.php?group_id=186304&amp;type=1" width="88" height="31" alt="SourceForge.net Logo">
+                </a>
+              </div>
+            </div>
+          </div> <!-- winix_contentleft --> 
+          <div id="winix_contentright" class="winix-main-content" hx-target="closest .winix-main-content" hx-swap="innerHTML">
+            <h1>Bignum C++ library</h1>
+            <p>
+              TTMath is a small library which allows one to perform arithmetic operations with big unsigned integer, big signed 
+              integer and big floating point numbers. It provides standard mathematical operations like adding, subtracting, 
+              multiplying, dividing. With the library also goes a mathematical parser to help you solving mathematical expressions. 
+            </p>
+            <p>
+              TTMath is developed under the BSD licence which means that it is free for both personal and commercial use. 
+            </p>
+            <p>
+              The main goal of the library is to allow one to use big values in the same way as the standard types like int or 
+              float. It does not need to be compiled first because the whole library is written as the C++ templates. This means 
+              only C++ developers can use this library and one thing they have to do is to use 'include' directive of the preprocessor. 
+              How big the values can be is set at compile time. 
+            </p>
+            <ul class="currentstatus">
+              <li>Current release: 0.9.3 (2012.11.28)</li>
+              <li>Author: Tomasz Sowa &lt;t.sowa AnTispam ttmath.org&gt;</li>
+            </ul>
+            <h2>Contributors:</h2>
+            <ul class="currentstatus">
+              <li>Christian Kaiser &lt; chk AnTispam online.de &gt;</li>
+            </ul>
+          </div> <!-- winix_contentright --> 
+        </div> <!-- winix_middle --> 
+      </div> <!-- winix_container --> 
+    </div> <!-- winix_container_outer --> 
+    <div id="winix-oob" hx-swap-oob="true">
+    </div>
+  </body>
+</html>
+
