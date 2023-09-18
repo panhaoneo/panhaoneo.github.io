@@ -1,0 +1,4 @@
+baseURL = 'https://panhaoneo.github.io/'
+languageCode = 'en-us'
+title = 'Pans WZ'
+theme = 'risotto'
