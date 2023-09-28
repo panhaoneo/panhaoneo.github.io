@@ -11,8 +11,8 @@ subtitle = "less,but diff"
 noindex = false
 
 [params.theme]
-# palette = "base16-dark","base07-light"
-palette = "base07-light"
+#palette = "base16-dark" apprentice, base16-dark, base16-light, dracula, gruvbox-dark, gruvbox-light, material, papercolor-dark, papercolor-light, solarized-dark, solarized-light, tender, tokyo-night-dark, tokyo-night-light, windows-95 and windows-95-light. The default is base16-dark.
+palette = "tokyo-night-light"
 
 # Sidebar: about/bio
 [params.about]
