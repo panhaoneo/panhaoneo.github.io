@@ -12,7 +12,7 @@ noindex = false
 
 [params.theme]
 #palette = "base16-dark" apprentice, base16-dark, base16-light, dracula, gruvbox-dark, gruvbox-light, material, papercolor-dark, papercolor-light, solarized-dark, solarized-light, tender, tokyo-night-dark, tokyo-night-light, windows-95 and windows-95-light. The default is base16-dark.
-palette = "tokyo-night-light"
+palette = "base16-light"
 
 # Sidebar: about/bio
 [params.about]
@@ -35,6 +35,11 @@ url = "https://github.com/joeroe/risotto"
     identifier = "about"
     name = "About"
     url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "c++"
+    name = "c++"
+    url = "/c++/"
     weight = 10
 
 [taxonomies]

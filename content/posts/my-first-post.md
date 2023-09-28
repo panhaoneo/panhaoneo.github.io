@@ -14,3 +14,9 @@ draft = false
 2. 想记录一些自己的感悟啥的。
 3. all in one 我在很多地方会记录一些东西，最终输出整理到这里。
 
+## other
+- 安装picgo的时候，mac的系统版本太高，不给打开非认证用户的软件，找到一个很不错的命令，记录下：
+```
+sudo spctl --master-disable 
+sudo xattr -r -d com.apple.quarantine /Applications/xxxx.app
+```
