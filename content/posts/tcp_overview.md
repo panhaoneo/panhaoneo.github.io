@@ -1,11 +1,10 @@
 +++
-title = 'Tcp_overview'
+title = 'TCP概述（了解TCP协议及其工作原理）'
 date = 2023-10-20T13:32:53+08:00
 draft = false
 
 +++
 
-# TCP概览（了解TCP协议及其工作原理）
 
 > 来自自己实现redis的挑战中：[TCP: An Overview](https://app.codecrafters.io/concepts/tcp-overview)。感觉写的简洁明了，很适合用于了解tcp/ip
 
