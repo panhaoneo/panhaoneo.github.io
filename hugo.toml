@@ -41,6 +41,11 @@ url = "https://github.com/joeroe/risotto"
     name = "c++"
     url = "/c++/"
     weight = 10
+	[[menu.main]]
+		identifier = "health"
+		name = "Health"
+		url = "/health/"
+		weight = 10
 
 [taxonomies]
 category = "categories"
