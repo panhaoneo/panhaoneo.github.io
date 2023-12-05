@@ -96,17 +96,17 @@ series = "series"
     endLevel   = 3
     ordered    = true
   [markup.highlight]
-    anchorLineNos = false
+    anchorLineNos = true
     codeFences = true
-    guessSyntax = false
+    guessSyntax = true
     hl_Lines = ''
     hl_inline = false
     lineAnchors = ''
     lineNoStart = 1
     lineNos = false
-    lineNumbersInTable = true
+    lineNumbersInTable = false
     noClasses = true
     noHl = false
-    style = 'monokai'
-    tabWidth = 4
+    style = 'xcode'
+    tabWidth = 2
 

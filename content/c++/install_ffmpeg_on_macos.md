@@ -1,5 +1,5 @@
 +++
-title = 'Install_ffmpeg_on_macos'
+title = 'macos编译安装ffmpeg'
 date = 2023-10-20T14:40:46+08:00
 draft = false
 +++
