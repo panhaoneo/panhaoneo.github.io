@@ -1,7 +1,7 @@
 baseURL = 'https://panhaoneo.github.io/'
 languageCode = 'en-us'
 title = 'Pans WZ'
-theme = 'risotto'
+theme = ['risotto',"hugo-shortcode-timeline"]
 author = 'Leo Pan'
 
 sectionPagesMenu = "main"
