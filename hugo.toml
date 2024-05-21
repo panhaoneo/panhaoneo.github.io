@@ -16,8 +16,8 @@ palette = "base16-light"
 
 # Sidebar: about/bio
 [params.about]
-title = "something"
-description = "A blog write by Pan."
+title = "something a blog"
+description = "Recording,Writing,Reading"
 logo = "images/rice.svg"
 
 # Sidebar: social links
@@ -36,15 +36,15 @@ url = "https://github.com/joeroe/risotto"
     name = "About"
     url = "/about/"
     weight = 10
-  [[menu.main]]
-    identifier = "c++"
-    name = "c++"
-    url = "/c++/"
-    weight = 10
 	[[menu.main]]
 		identifier = "health"
 		name = "Health"
 		url = "/health/"
+		weight = 10
+  [[menu.main]]
+		identifier = "now"
+		name = "now"
+		url = "/now/"
 		weight = 10
 
 [taxonomies]
