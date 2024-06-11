@@ -15,10 +15,12 @@ tags = ["now", "movie"]
 
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
+- [玫瑰的故事](https://movie.douban.com/subject/35665988/) 2024年6月11日
 
 # What I'm Listening
 
-
+- 起风了
+- 波西米亚狂想曲 牙叔
 
 
 
