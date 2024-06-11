@@ -2,6 +2,7 @@
 title = 'Yum离线安装方式'
 date = 2024-05-21T17:28:02+08:00
 draft = false
+tags = ["Linux"]
 +++
 
 

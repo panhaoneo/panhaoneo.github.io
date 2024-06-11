@@ -2,6 +2,7 @@
 title = 'Learn_rust_base'
 date = 2023-11-25T09:18:42+08:00
 draft = true
+tags = ["Rust"]
 +++
 
 book : https://course.rs/

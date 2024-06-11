@@ -2,6 +2,7 @@
 title = 'LinuxC++代码移植windows'
 date = 2024-05-27T13:29:35+08:00
 draft = false
+tags = ["Linux", "Windows"]
 +++
 
 linux移植到windows 代码

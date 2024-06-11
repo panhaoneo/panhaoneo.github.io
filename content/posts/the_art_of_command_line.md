@@ -2,6 +2,7 @@
 title = 'The_art_of_command_line'
 date = 2024-05-21T16:58:28+08:00
 draft = false
+tags = ["Linux", "命令行"]
 +++
 
 > 参考[the art of command line in github](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)

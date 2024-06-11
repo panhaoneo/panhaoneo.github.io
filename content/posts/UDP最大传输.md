@@ -2,6 +2,7 @@
 title = 'UDP最大传输'
 date = 2024-05-14T10:20:36+08:00
 draft = false
+tags = ["UDP"]
 +++
 
 转自[UDP最大传输](https://blog.csdn.net/luojian5900339/article/details/78472137)

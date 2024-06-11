@@ -2,6 +2,7 @@
 title = 'Git的https和ssh'
 date = 2024-05-24T15:19:26+08:00
 draft = true
+tags = ["git"]
 +++
 
 

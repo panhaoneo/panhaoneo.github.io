@@ -2,7 +2,7 @@
 title = 'national_day_travel_2023'
 date = 2023-09-18T14:29:31+08:00
 draft = true
-
+tags = ["travel"]
 +++
 
 <style>
