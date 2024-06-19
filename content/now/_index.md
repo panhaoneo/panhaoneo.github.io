@@ -21,6 +21,7 @@ tags = ["now", "movie"]
 
 - 起风了
 - 波西米亚狂想曲 牙叔
+- We are the world Michael Jackson
 
 
 
