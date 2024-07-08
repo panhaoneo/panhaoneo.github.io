@@ -19,6 +19,7 @@ tags = ["epoll"]
 > [epoll如何实现IO多路复用](https://mp.weixin.qq.com/s?__biz=MjM5Njg5NDgwNA==&mid=2247484905&idx=1&sn=a74ed5d7551c4fb80a8abe057405ea5e&chksm=a6e304d291948dc4fd7fe32498daaae715adb5f84ec761c31faf7a6310f4b595f95186647f12&scene=21#wechat_redirect)
 
 
+很好的blog： https://www.cnblogs.com/bandaoyu/p/16752516.html
 
 
 
