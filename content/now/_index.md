@@ -19,10 +19,11 @@ tags = ["now", "movie"]
 
 # What I'm Listening
 
-- 起风了
+- 起风了 买辣椒也用券
 - 波西米亚狂想曲 牙叔
 - We are the world Michael Jackson
 - 三葉のテーマ 三叶的主题曲
-
+- 我不和你谈论 张悬
 
 # post
+- [InterviewRecord 很好的](https://github.com/panhaoneo/InterviewRecord)
