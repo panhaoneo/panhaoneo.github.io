@@ -24,6 +24,7 @@ tags = ["now", "movie"]
 - We are the world Michael Jackson
 - 三葉のテーマ 三叶的主题曲
 - 我不和你谈论 张悬
+- Monday 窦靖童
 
 # post
 - [InterviewRecord 很好的](https://github.com/panhaoneo/InterviewRecord)
