@@ -43,3 +43,5 @@ https://github.com/orgs/community/discussions/6942
 }
 
 Here's why it works: https://code.visualstudio.com/api/advanced-topics/extension-host
+
+2. cmake-tools

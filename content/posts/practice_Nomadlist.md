@@ -1,7 +1,7 @@
 +++
 title = 'Practice_Nomadlist'
 date = 2023-10-20T09:56:54+08:00
-draft = false
+draft = true
 tags = ["Practice"]
 +++
 
