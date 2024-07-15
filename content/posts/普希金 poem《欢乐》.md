@@ -1,5 +1,5 @@
 +++
-title = '《欢乐》'
+title = '普希金 poem《欢乐》'
 date = 2024-07-09T14:54:10+08:00
 draft = false
 tags = ['诗']
@@ -7,9 +7,12 @@ tags = ['诗']
 
 [欢乐](http://shiku.org/shiku/ws/wg/pushkin/33.htm)
 
+老舍让韩秀用俄语朗读的普希金诗歌《欢乐》
+
 ```
 欢乐
----- pushkin
+---- 
+[普希金](https://poemwiki.org/author/MjE2MjQyNDI0MjQxMzU=)
 
 初绽的生命之花
 在寂寞的囹圄中憔悴，
