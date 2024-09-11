@@ -17,6 +17,7 @@ tags = ["hugo", "blog"]
 ## 写作工具
 1. [emoji-cheat-sheet](https://www.webfx.com/tools/emoji-cheat-sheet/)
 2. picgo 配置教程：[picgo docs](https://picgo.github.io/PicGo-Doc)
+3. [excalidraw 简单好用的画图工具](https://excalidraw.com/)
 
 ## other
 - 安装picgo的时候，mac的系统版本太高，不给打开非认证用户的软件，找到一个很不错的命令，记录下：

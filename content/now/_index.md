@@ -8,17 +8,20 @@ tags = ["now", "movie"]
 
 
 # What I'm doing
-
+- [leveldb](https://github.com/google/leveldb) 2024年8月22日 read and learn this code
 
 # What I'm reading
 - [明朝那些事儿](https://book.douban.com/subject/7163250/) 2024年5月1日
 - [代码整洁之道](https://book.douban.com/subject/34986245/) 2024年7月21日
 - [巨人的陨落](https://book.douban.com/subject/26698660/) 2024年8月1日
+- [耶鲁小历史系列：美国小历史](https://book.douban.com/subject/27045325/) 2024年8月19日
+- [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
 - [玫瑰的故事](https://movie.douban.com/subject/35665988/) 2024年6月11日
 - wubba lubba dub dub
+- nothing
 
 # What I'm Listening
 
@@ -30,6 +33,8 @@ tags = ["now", "movie"]
 - [Monday](https://www.bilibili.com/video/BV1sX4y1R7mh/) 窦靖童
 - [一场游戏一场梦](https://www.bilibili.com/video/BV12J411z7eL/) 王杰 关于离别
 - [スパークル(火花）](https://www.bilibili.com/video/BV14X4y1m7CQ) 
+- [眼泪落下之前](https://www.bilibili.com/video/BV14u4y1z7no) 汪苏泷
+- [热河](https://open.spotify.com/track/5XaCwy5ZR6exjlVj23okKz?si=RQzFQ8SBRYGzYo_5xAyevg) 李志
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
