@@ -16,6 +16,7 @@ tags = ["now", "movie"]
 - [巨人的陨落](https://book.douban.com/subject/26698660/) 2024年8月1日
 - [耶鲁小历史系列：美国小历史](https://book.douban.com/subject/27045325/) 2024年8月19日
 - [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
+- [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
