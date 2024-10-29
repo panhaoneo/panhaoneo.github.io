@@ -17,6 +17,7 @@ tags = ["now", "movie"]
 - [耶鲁小历史系列：美国小历史](https://book.douban.com/subject/27045325/) 2024年8月19日
 - [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
 - [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
+- [给青年诗人的信](https://book.douban.com/subject/26685994/) 2024年10月20日 一口气读完，值得回味。
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
@@ -36,6 +37,11 @@ tags = ["now", "movie"]
 - [スパークル(火花）](https://www.bilibili.com/video/BV14X4y1m7CQ) 
 - [眼泪落下之前](https://www.bilibili.com/video/BV14u4y1z7no) 汪苏泷
 - [热河](https://open.spotify.com/track/5XaCwy5ZR6exjlVj23okKz?si=RQzFQ8SBRYGzYo_5xAyevg) 李志
+
+# What I'm Found
+- [查看ip网络协议的标准站RFC](https://datatracker.ietf.org/doc/html/rfc790)
+- [tcpdump](https://www.tcpdump.org/index.html#documentation)
+- [good blog jvns](http://jvns.ca)
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
