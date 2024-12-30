@@ -18,6 +18,7 @@ tags = ["now", "movie"]
 - [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
 - [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
 - [给青年诗人的信](https://book.douban.com/subject/26685994/) 2024年10月20日 一口气读完，值得回味。
+- [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
