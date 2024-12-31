@@ -19,10 +19,13 @@ tags = ["now", "movie"]
 - [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
 - [给青年诗人的信](https://book.douban.com/subject/26685994/) 2024年10月20日 一口气读完，值得回味。
 - [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。
+- [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
+- [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
 - [玫瑰的故事](https://movie.douban.com/subject/35665988/) 2024年6月11日
+- [去有风的地方](https://movie.douban.com/subject/35662223/) 2024年11月11日
 - wubba lubba dub dub
 - nothing
 
