@@ -46,6 +46,7 @@ tags = ["now", "movie"]
 - [查看ip网络协议的标准站RFC](https://datatracker.ietf.org/doc/html/rfc790)
 - [tcpdump](https://www.tcpdump.org/index.html#documentation)
 - [good blog jvns](http://jvns.ca)
+- [失控作者凯文凯利blog](https://kk.org/)
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
