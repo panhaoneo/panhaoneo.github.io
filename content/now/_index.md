@@ -47,6 +47,8 @@ tags = ["now", "movie"]
 - [tcpdump](https://www.tcpdump.org/index.html#documentation)
 - [good blog jvns](http://jvns.ca)
 - [失控作者凯文凯利blog](https://kk.org/)
+- [一篇旧文：段永平的这200条思考，解释了他为什么既是卓越企业家，又是顶尖的投资大师](https://36kr.com/p/2060114940874370)
+- [Prompt大神李继刚的博客，网站风格极简](https://lijigang.com/)
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
