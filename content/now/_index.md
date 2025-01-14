@@ -9,6 +9,10 @@ tags = ["now", "movie"]
 
 # What I'm doing
 - [leveldb](https://github.com/google/leveldb) 2024年8月22日 read and learn this code
+- 20250114
+   - [ ] [AI Agent（智能体）技术白皮书（Google，2024）](https://arthurchiao.art/blog/ai-agent-white-paper-zh/ ) 
+   - [ ] [Paul Graham](https://paulgraham.com/articles.html)
+   - [ ] 
 
 # What I'm reading
 - [明朝那些事儿](https://book.douban.com/subject/7163250/) 2024年5月1日
@@ -18,7 +22,7 @@ tags = ["now", "movie"]
 - [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
 - [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
 - [给青年诗人的信](https://book.douban.com/subject/26685994/) 2024年10月20日 一口气读完，值得回味。
-- [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。
+- [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。 Around the World in Eighty Days (Jules Verne), 1872 "Determination conquers all obstacles."
 - [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
 - [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
   
@@ -49,6 +53,7 @@ tags = ["now", "movie"]
 - [失控作者凯文凯利blog](https://kk.org/)
 - [一篇旧文：段永平的这200条思考，解释了他为什么既是卓越企业家，又是顶尖的投资大师](https://36kr.com/p/2060114940874370)
 - [Prompt大神李继刚的博客，网站风格极简](https://lijigang.com/)
+- [《纳瓦尔宝典》、《巴拉吉预言》作者合作的插画师的网站](https://visualizevalue.com/)
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
