@@ -32,6 +32,7 @@ tags = ["now", "movie"]
 - [去有风的地方](https://movie.douban.com/subject/35662223/) 2024年11月11日
 - wubba lubba dub dub
 - nothing
+- [走走停停](https://movie.douban.com/subject/35956190/) 2025年1月21日 奇怪，在这部电影看到了是枝裕和的感觉。
 
 # What I'm Listening
 
