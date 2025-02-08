@@ -12,7 +12,7 @@ tags = ["now", "movie"]
 - 20250114
    - [ ] [AI Agent（智能体）技术白皮书（Google，2024）](https://arthurchiao.art/blog/ai-agent-white-paper-zh/ ) 
    - [ ] [Paul Graham](https://paulgraham.com/articles.html)
-   - [ ] 
+
 
 # What I'm reading
 - [明朝那些事儿](https://book.douban.com/subject/7163250/) 2024年5月1日
