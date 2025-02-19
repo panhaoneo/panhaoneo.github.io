@@ -25,6 +25,7 @@ tags = ["now", "movie"]
 - [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。 Around the World in Eighty Days (Jules Verne), 1872 "Determination conquers all obstacles."
 - [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
 - [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
+- [柏林谍影](https://book.douban.com/subject/26389907/) 2025年2月19日 不好描述那种感觉，对话的时候很容易入迷进去，布局还可以。
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
@@ -33,6 +34,7 @@ tags = ["now", "movie"]
 - wubba lubba dub dub
 - nothing
 - [走走停停](https://movie.douban.com/subject/35956190/) 2025年1月21日 奇怪，在这部电影看到了是枝裕和的感觉。
+- [兰闺喜事](https://movie.douban.com/subject/35682502/) 2025年2月19日 编辑的脑洞，有点武林外传的意思。
 
 # What I'm Listening
 

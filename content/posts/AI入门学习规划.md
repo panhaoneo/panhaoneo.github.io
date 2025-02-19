@@ -47,6 +47,7 @@ draft = false
  - arxiv.org 学习模型，SemanticScholar 查找论文之间的联系，GitHub 搜索查找其他人的实现以及 Andrej Karpathy 的 Sanity Preserver 网站，可以更轻松地搜索和查看 Arxiv 论文： http://www.arxiv-sanity.com/
  - 在教授人工智能基础知识和内部工作原理直觉的相关主题上，有一个名为“AI Unplugged”[1](http://www.aiunplugged.org)的精彩材料，可以使用笔、卡片等以游戏的方式进行活动。我曾多次向不熟悉 AI/ML 领域的各种受众（儿童和成人）使用这种材料，每次人们似乎都很享受它并对他们所生活的现代世界有了一点了解。
  - [AI相关的数学知识](https://mml-book.github.io/)  提供必要的数学技能，以阅读其他书籍
+ - [面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版](https://github.com/datawhalechina/llm-cookbook) 偏向应用端
 
 ## 我筛选的资源和学习的计划
 
