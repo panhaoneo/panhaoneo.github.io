@@ -25,7 +25,7 @@ tags = ["now", "movie"]
 - [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。 Around the World in Eighty Days (Jules Verne), 1872 "Determination conquers all obstacles."
 - [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
 - [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
-- [柏林谍影](https://book.douban.com/subject/26389907/) 2025年2月19日 不好描述那种感觉，对话的时候很容易入迷进去，布局还可以。
+- [柏林谍影](https://book.douban.com/subject/26389907/) 2025年2月19日 不好描述那种感觉，对话的时候很容易入迷进去，布局还可以。[书评](https://book.douban.com/review/8021988/)
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
@@ -57,6 +57,8 @@ tags = ["now", "movie"]
 - [一篇旧文：段永平的这200条思考，解释了他为什么既是卓越企业家，又是顶尖的投资大师](https://36kr.com/p/2060114940874370)
 - [Prompt大神李继刚的博客，网站风格极简](https://lijigang.com/)
 - [《纳瓦尔宝典》、《巴拉吉预言》作者合作的插画师的网站](https://visualizevalue.com/)
+- 洗碗的时候听播客，随意点了排行榜的，[知行小酒馆](https://www.xiaoyuzhoufm.com/episode/67b7f6c705a90dfd0de0e56f),采访一个艺术家[邱志杰](http://www.qiuzhijie.com/biolographnianbiao.htm),我关注了他的小红书。
+- 
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
