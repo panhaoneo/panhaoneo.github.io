@@ -58,7 +58,7 @@ tags = ["now", "movie"]
 - [Prompt大神李继刚的博客，网站风格极简](https://lijigang.com/)
 - [《纳瓦尔宝典》、《巴拉吉预言》作者合作的插画师的网站](https://visualizevalue.com/)
 - 洗碗的时候听播客，随意点了排行榜的，[知行小酒馆](https://www.xiaoyuzhoufm.com/episode/67b7f6c705a90dfd0de0e56f),采访一个艺术家[邱志杰](http://www.qiuzhijie.com/biolographnianbiao.htm),我关注了他的小红书。
-- 
+- [easyperf and cpu tuning book](https://easyperf.net/about_me/), [the book](https://github.com/dendibakh/perf-book/releases/tag/2.0_release) and [course perf-ninja](https://products.easyperf.net/perf-ninja)
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)

@@ -46,3 +46,31 @@ tags = ["life", "health"]
 > 夫人之相与，俯仰一世，或取诸怀抱，悟言一室之内；或因寄所托，放浪形骸之外。虽趣舍万殊，静躁不同，当其欣于所遇，暂得于己，怏然自足，不知老之将至。及其所之既倦，情随事迁，感慨系之矣。向之所欣，俯仰之间，已为陈迹，犹不能不以之兴怀。况修短随化，终期于尽。古人云：“死生亦大矣。”岂不痛哉！ -<<兰亭集序>>
 
 > 天高地迥(jiǒng)，觉宇宙之无穷；兴尽悲来，识盈虚之有数. -《滕王阁序》
+
+> 孤独，其实人的精神也是会饥饿的，你试试放下手机，停止一切信息摄取，就那样啥也不干的静坐3小时，你的精神就会产生一种对于信息的饥饿状态。 
+
+> 成为强者的第一步The first step to becoming strong
+你要杀死自己内心中所有的恐惧is to kill all the fears in your heart.
+人类只被赋予了平均70年的岁月Humans are only given an average of 70 years归宿都是寂灭，没什么好怕的all return to nothingness. There's nothing to be afraid of
+你想好的事情，去干就完了
+If you have a good idea, just go for it.
+
+成为强者的第二步
+The second step to becoming gor
+是要养成深度思考的习惯
+is to develop the habit of deep thinking
+不要只是埋头努力
+Don't just work hard.
+真正能成大事，靠的都是智慧
+What really matters in achieving great things is wisdom
+拼的都是大脑，而不是单纯的努力it's the brain that counts, not just hard work.
+成为强者的第三步
+The third step to becoming strong
+
+是不纠结、不较真is not to obsess or be too serious
+在这个世界上
+In this world很多人不能用好坏来区分many people cannot be simply divided into good or bad很多事没有唯一的标准答案and many things do not have a single standard answer.
+如果你反复纠结、太较真
+lf you obsess and get too serious,
+除了让自己陷入严重的内耗之外
+it will not only cause serious internal friction
