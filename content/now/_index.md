@@ -26,6 +26,7 @@ tags = ["now", "movie"]
 - [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
 - [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
 - [柏林谍影](https://book.douban.com/subject/26389907/) 2025年2月19日 不好描述那种感觉，对话的时候很容易入迷进去，布局还可以。[书评](https://book.douban.com/review/8021988/)
+- [现代CPU性能分析与优化](https://book.douban.com/subject/36243215/) 尝试读一下英语版本。 中文资料：[perf-book-cn](https://weedge.github.io/perf-book-cn/zh/)
   
 # What I'm watching TV/Movies
 - [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
