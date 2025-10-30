@@ -49,6 +49,11 @@ tags = ["life", "health"]
 
 > 孤独，其实人的精神也是会饥饿的，你试试放下手机，停止一切信息摄取，就那样啥也不干的静坐3小时，你的精神就会产生一种对于信息的饥饿状态。 
 
+> 《山之高》张玉娘
+山之高，月出小。月之小，何皎皎！我有所思在远道，一日不见兮，我心悄悄。
+采苦采苦，于山之南。忡忡忧心，其何以堪。
+汝心金石坚，我操冰雪洁。拟结百岁盟，忽成一朝别。朝云暮雨心去来，千里相思共明月。
+
 > 成为强者的第一步The first step to becoming strong
 你要杀死自己内心中所有的恐惧is to kill all the fears in your heart.
 人类只被赋予了平均70年的岁月Humans are only given an average of 70 years归宿都是寂灭，没什么好怕的all return to nothingness. There's nothing to be afraid of
