@@ -12,6 +12,10 @@ tags = ["now", "movie"]
 - 20250114
    - [ ] [AI Agent（智能体）技术白皮书（Google，2024）](https://arthurchiao.art/blog/ai-agent-white-paper-zh/ ) 
    - [ ] [Paul Graham](https://paulgraham.com/articles.html)
+- 20260309 最近在学习AI的使用课程
+   - [ ] https://anthropic.skilljar.com/claude-101/
+   - [ ] https://themodernsoftware.dev
+   - [ ] https://github.com/anthropics/prompt-eng-interactive-tutorial
 
 
 # What I'm reading
