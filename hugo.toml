@@ -1,7 +1,7 @@
 baseURL = 'https://panhaoneo.github.io/'
 languageCode = 'en-us'
 title = 'Pans WZ'
-theme = ['risotto',"hugo-shortcode-timeline"]
+theme = ["archie","hugo-shortcode-timeline"]
 author = 'Leo Pan'
 
 sectionPagesMenu = "main"
@@ -9,10 +9,11 @@ sectionPagesMenu = "main"
 [params]
 subtitle = "less,but diff"
 noindex = false
+truncate = false
 
 [params.theme]
-#palette = "base16-dark" apprentice, base16-dark, base16-light, dracula, gruvbox-dark, gruvbox-light, material, papercolor-dark, papercolor-light, solarized-dark, solarized-light, tender, tokyo-night-dark, tokyo-night-light, windows-95 and windows-95-light. The default is base16-dark.
-palette = "base16-light"
+# palette = "base16-dark" apprentice, base16-dark, base16-light, dracula, gruvbox-dark, gruvbox-light, material, papercolor-dark, papercolor-light, solarized-dark, solarized-light, tender, tokyo-night-dark, tokyo-night-light, windows-95 and windows-95-light. The default is base16-dark.
+# palette = "base16-light"
 
 # Sidebar: about/bio
 [params.about]
@@ -20,32 +21,32 @@ title = "something a blog"
 description = "Recording,Writing,Reading"
 logo = "images/rice.svg"
 
-# Sidebar: social links
-# Available icon sets:
-# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
-# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
 
-[[params.socialLinks]]
-icon = "fa-brands fa-github"
-title = "GitHub"
-url = "https://github.com/joeroe/risotto"
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-	[[menu.main]]
-		identifier = "health"
-		name = "Health"
-		url = "/health/"
-		weight = 10
-  [[menu.main]]
-		identifier = "now"
-		name = "now"
-		url = "/now/"
-		weight = 10
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+  weight = 1
+[[menu.main]]
+  identifier = "health"
+  name = "health"
+  url = "/health/"
+  weight = 9
+[[menu.main]]
+  identifier = "now"
+  name = "now"
+  url = "/now/"
+  weight = 8
+[[menu.main]]
+  identifier = "diary"
+  name = "diary"
+  url = "/diary/"
+  weight = 10
+[[menu.main]]
+  identifier = "posts"
+  name = "posts"
+  url = "/posts/"
+  weight = 8
 
 [taxonomies]
 category = "categories"
