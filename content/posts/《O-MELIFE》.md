@@ -8,7 +8,9 @@ tags = ['poem']
 ```
 
 O Me! O Life!
-BY [WALT WHITMAN](https://www.poetryfoundation.org/poets/walt-whitman)
+BY 
+[WALT WHITMAN](https://www.poetryfoundation.org/poets/walt-whitman)
+
 Oh me! Oh life! of the questions of these recurring,
 Of the endless trains of the faithless, of cities fill’d with the foolish,
 Of myself forever reproaching myself, (for who more foolish than I, and who more faithless?)
