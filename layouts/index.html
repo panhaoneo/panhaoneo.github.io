@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "header.html" . }}
+  <body>
+    <div class="content">
+      {{ partial "head.html" . }}
+
+      <main>
+        <!-- Hero -->
+        <section class="hp-hero">
+          {{- if isset .Site.Params "subtitle" -}}
+          <p class="hp-tagline">{{ .Site.Params.Subtitle }}</p>
+          {{- end -}}
+          <p class="hp-bio">C++ 程序员 &nbsp;·&nbsp; 记录者 &nbsp;·&nbsp; 读书人</p>
+        </section>
+
+        <!-- Feature cards -->
+        <nav class="hp-features" aria-label="主要栏目">
+          <a href="/posts/" class="hp-card">
+            <span class="hp-card-icon">✍</span>
+            <span class="hp-card-label">文章</span>
+            <span class="hp-card-desc">技术与思考</span>
+          </a>
+          <a href="/diary/" class="hp-card">
+            <span class="hp-card-icon">📅</span>
+            <span class="hp-card-label">日记</span>
+            <span class="hp-card-desc">生活时间线</span>
+          </a>
+          <a href="/photos/" class="hp-card">
+            <span class="hp-card-icon">📷</span>
+            <span class="hp-card-label">相册</span>
+            <span class="hp-card-desc">生活点滴</span>
+          </a>
+          <a href="/now/" class="hp-card">
+            <span class="hp-card-icon">🌱</span>
+            <span class="hp-card-label">现在</span>
+            <span class="hp-card-desc">当下在做</span>
+          </a>
+          <a href="/health/" class="hp-card">
+            <span class="hp-card-icon">❤</span>
+            <span class="hp-card-label">健康</span>
+            <span class="hp-card-desc">身心平衡</span>
+          </a>
+          <a href="/about/" class="hp-card">
+            <span class="hp-card-icon">👤</span>
+            <span class="hp-card-label">关于</span>
+            <span class="hp-card-desc">认识我</span>
+          </a>
+        </nav>
+
+        <!-- Recent Posts -->
+        <section class="hp-section">
+          <div class="hp-section-hd">
+            <h2 class="hp-section-title">最近文章</h2>
+            <a href="/posts/" class="hp-see-all">全部 →</a>
+          </div>
+          <div class="hp-post-list">
+            {{ $posts := where .Site.RegularPages "Section" "posts" }}
+            {{ range first 6 $posts }}
+            <a href="{{ .RelPermalink }}" class="hp-post-item">
+              <span class="hp-post-title">{{ .Title }}</span>
+              <time class="hp-post-date">{{ dateFormat "01/02" .Date }}</time>
+            </a>
+            {{ end }}
+          </div>
+        </section>
+
+        <!-- Recent Photos -->
+        {{ $photos := where .Site.RegularPages "Section" "photos" }}
+        {{ if $photos }}
+        <section class="hp-section">
+          <div class="hp-section-hd">
+            <h2 class="hp-section-title">生活相册</h2>
+            <a href="/photos/" class="hp-see-all">全部 →</a>
+          </div>
+          <div class="hp-photo-grid">
+            {{ range first 6 (where $photos "Params.cover" "!=" nil) }}
+            <a href="{{ .RelPermalink }}" class="hp-photo-thumb" title="{{ .Title }}">
+              <img src="{{ .Params.cover }}" alt="{{ .Title }}" loading="lazy">
+              <span class="hp-photo-caption">{{ .Title }}</span>
+            </a>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "header.html" . }}
+  <body>
+    <div class="content">
+      {{ partial "head.html" . }}
+
+      <main>
+        <div class="gallery-header">
+          <h1 class="gallery-title">📷 生活相册</h1>
+          <p class="gallery-subtitle">记录生活中的美好瞬间</p>
+        </div>
+
+        {{ if .Pages }}
+        <div class="gallery-grid">
+          {{ range .Pages }}
+          <a href="{{ .RelPermalink }}" class="gallery-card">
+            {{ if .Params.cover }}
+            <div class="gallery-card-img" style="background-image: url('{{ .Params.cover }}')"></div>
+            {{ else }}
+            <div class="gallery-card-img gallery-card-img--empty">📷</div>
+            {{ end }}
+            <div class="gallery-card-body">
+              <h2 class="gallery-card-title">{{ .Title }}</h2>
+              <div class="gallery-card-meta">
+                <time>{{ dateFormat "2006年01月02日" .Date }}</time>
+                {{ if .Params.location }}
+                <span class="gallery-card-location">📍 {{ .Params.location }}</span>
+                {{ end }}
+                {{ if .Params.photos }}
+                <span class="gallery-card-count">{{ len .Params.photos }} 张</span>
+                {{ end }}
+              </div>
+              {{ if .Summary }}
+              <p class="gallery-card-summary">{{ .Summary | truncate 60 }}</p>
+              {{ end }}
+            </div>
+          </a>
+          {{ end }}
+        </div>
+        {{ else }}
+        <div class="gallery-empty">
+          <p class="gallery-empty-icon">📷</p>
+          <p>还没有照片，快去上传吧！</p>
+          <p class="gallery-empty-hint">在 <code>content/photos/</code> 目录下新建 Markdown 文件即可添加相册。</p>
+        </div>
+        {{ end }}
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>

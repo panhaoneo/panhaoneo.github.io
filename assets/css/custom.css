@@ -1,0 +1,459 @@
+/* ============================================================
+   Homepage redesign – custom overrides for Archie theme
+   ============================================================ */
+
+/* ── Hero ──────────────────────────────────────────────────── */
+.hp-hero {
+  padding: 2.5rem 0 1.5rem;
+  border-bottom: 2px dotted var(--color-border, #663399);
+  margin-bottom: 2rem;
+}
+
+.hp-tagline {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Roboto Mono', 'Courier New', monospace;
+  color: var(--color-text, #232333);
+  margin: 0 0 0.4rem;
+  letter-spacing: -0.5px;
+}
+
+.hp-bio {
+  font-size: 0.95rem;
+  color: var(--color-text-muted, #737373);
+  margin: 0;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* ── Feature cards ─────────────────────────────────────────── */
+.hp-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 37.4em) {
+  .hp-features {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hp-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 1rem 0.5rem;
+  border: 2px solid var(--color-background-pre, #ececec);
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  /* override theme's bottom border on <a> */
+  border-bottom: 2px solid var(--color-background-pre, #ececec) !important;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.15s ease;
+  background: var(--color-background, #fff);
+}
+
+.hp-card:hover,
+.hp-card:focus {
+  border-color: var(--color-primary, #dc143c) !important;
+  background: var(--color-background, #fff);
+  color: var(--color-text, #232333);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.hp-card-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.hp-card-label {
+  font-weight: 700;
+  font-size: 0.9rem;
+  font-family: 'Roboto Mono', monospace;
+  color: var(--color-text, #232333);
+}
+
+.hp-card-desc {
+  font-size: 0.75rem;
+  color: var(--color-text-muted, #737373);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+/* ── Sections (posts / photos) ─────────────────────────────── */
+.hp-section {
+  margin-bottom: 2.5rem;
+}
+
+.hp-section-hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-background-pre, #ececec);
+  padding-bottom: 0.4rem;
+}
+
+.hp-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 !important;
+  color: var(--color-text, #232333);
+}
+
+/* suppress the theme's ## prefix on these headings */
+.hp-section-title::before {
+  content: '' !important;
+}
+
+.hp-see-all {
+  font-size: 0.8rem;
+  color: var(--color-text-muted, #737373);
+  border-bottom: none !important;
+  font-family: 'Fira Sans', sans-serif;
+  transition: color 0.2s ease;
+}
+
+.hp-see-all:hover,
+.hp-see-all:focus {
+  color: var(--color-primary, #dc143c);
+  background: transparent;
+  outline: none;
+}
+
+/* ── Post list ─────────────────────────────────────────────── */
+.hp-post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.hp-post-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.45rem 0.5rem;
+  border-radius: 4px;
+  border-bottom: none !important;
+  text-decoration: none;
+  color: var(--color-text, #232333);
+  transition: background 0.15s ease;
+  gap: 1rem;
+}
+
+.hp-post-item:hover,
+.hp-post-item:focus {
+  background: var(--color-background-code, #f1f1f1);
+  color: var(--color-text, #232333);
+  outline: none;
+}
+
+.hp-post-title {
+  flex: 1;
+  font-size: 0.9rem;
+  font-family: 'Fira Sans', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hp-post-date {
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #737373);
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* ── Photo grid (homepage preview) ────────────────────────── */
+.hp-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+@media (max-width: 37.4em) {
+  .hp-photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.hp-photo-thumb {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 6px;
+  border-bottom: none !important;
+  background: var(--color-background-pre, #ececec);
+}
+
+.hp-photo-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: none;
+  border-radius: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.hp-photo-thumb:hover img {
+  transform: scale(1.05);
+}
+
+.hp-photo-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.3rem 0.5rem;
+  font-size: 0.72rem;
+  font-family: 'Fira Sans', sans-serif;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(0,0,0,0.55));
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hp-photo-thumb:hover .hp-photo-caption {
+  opacity: 1;
+}
+
+/* ============================================================
+   Gallery page (photos/list)
+   ============================================================ */
+
+.gallery-header {
+  padding: 1.5rem 0 1rem;
+  border-bottom: 2px dotted var(--color-border, #663399);
+  margin-bottom: 1.5rem;
+}
+
+.gallery-title {
+  font-size: 1.4rem;
+  margin: 0 0 0.25rem !important;
+}
+
+.gallery-title::before {
+  content: '' !important;
+}
+
+.gallery-subtitle {
+  color: var(--color-text-muted, #737373);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 37.4em) {
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gallery-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--color-background-pre, #ececec);
+  border-radius: 8px;
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-background-pre, #ececec) !important;
+  text-decoration: none;
+  color: var(--color-text, #232333);
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.gallery-card:hover,
+.gallery-card:focus {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  transform: translateY(-2px);
+  color: var(--color-text, #232333);
+  background: transparent;
+  outline: none;
+}
+
+.gallery-card-img {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--color-background-pre, #ececec);
+}
+
+.gallery-card-img--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+
+.gallery-card-body {
+  padding: 0.75rem;
+}
+
+.gallery-card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem !important;
+}
+
+.gallery-card-title::before {
+  content: '' !important;
+}
+
+.gallery-card-meta {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.78rem;
+  color: var(--color-text-muted, #737373);
+  flex-wrap: wrap;
+  margin-bottom: 0.4rem;
+}
+
+.gallery-card-summary {
+  font-size: 0.83rem;
+  color: var(--color-text-muted, #737373);
+  margin: 0;
+}
+
+.gallery-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--color-text-muted, #737373);
+}
+
+.gallery-empty-icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-empty-hint {
+  font-size: 0.85rem;
+}
+
+/* ============================================================
+   Photo single post
+   ============================================================ */
+
+.photo-post-hd {
+  margin-bottom: 1.5rem;
+}
+
+.photo-post-title {
+  margin-bottom: 0.4rem !important;
+}
+
+.photo-post-meta {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--color-text-muted, #737373);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.photo-post-tags {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.photo-tag {
+  background: var(--color-background-code, #f1f1f1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 37.4em) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.photo-figure {
+  margin: 0;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.photo-figure a {
+  display: block;
+  border-bottom: none !important;
+}
+
+.photo-figure img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border: none;
+  border-radius: 0;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.photo-figure:hover img {
+  transform: scale(1.03);
+}
+
+.photo-figure figcaption {
+  padding: 0.4rem 0.5rem;
+  font-size: 0.8rem;
+  color: var(--color-text-muted, #737373);
+  background: var(--color-background-code, #f1f1f1);
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.photo-post-body {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-background-pre, #ececec);
+}
+
+.photo-post-nav {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-background-pre, #ececec);
+}
+
+.photo-post-nav a {
+  font-size: 0.85rem;
+  color: var(--color-text-muted, #737373);
+  border-bottom: none !important;
+}
+
+.photo-post-nav a:hover {
+  color: var(--color-primary, #dc143c);
+  background: transparent;
+}
+
+/* ============================================================
+   Dark mode overrides
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  .hp-card {
+    border-color: #333 !important;
+  }
+  .hp-card:hover {
+    border-color: var(--color-primary-dark, #50fa7b) !important;
+  }
+  .gallery-card {
+    border-color: #333 !important;
+  }
+}

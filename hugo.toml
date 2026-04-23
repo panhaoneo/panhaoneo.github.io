@@ -10,6 +10,7 @@ sectionPagesMenu = "main"
 subtitle = "less,but diff"
 noindex = false
 truncate = true
+customCSS = ["css/custom.css"]
 
 [params.theme]
 # palette = "base16-dark" apprentice, base16-dark, base16-light, dracula, gruvbox-dark, gruvbox-light, material, papercolor-dark, papercolor-light, solarized-dark, solarized-light, tender, tokyo-night-dark, tokyo-night-light, windows-95 and windows-95-light. The default is base16-dark.
@@ -27,6 +28,11 @@ logo = "images/rice.svg"
   name = "about"
   url = "/about/"
   weight = 1
+[[menu.main]]
+  identifier = "photos"
+  name = "photos"
+  url = "/photos/"
+  weight = 5
 [[menu.main]]
   identifier = "health"
   name = "health"

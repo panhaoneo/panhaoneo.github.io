@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "header.html" . }}
+  <body>
+    <div class="content">
+      {{ partial "head.html" . }}
+
+      <main>
+        <article class="photo-post">
+          <header class="photo-post-hd">
+            <h1 class="photo-post-title">{{ .Title }}</h1>
+            <div class="photo-post-meta">
+              <time>{{ dateFormat "2006年01月02日" .Date }}</time>
+              {{ if .Params.location }}
+              <span class="photo-post-location">📍 {{ .Params.location }}</span>
+              {{ end }}
+              {{ if .Params.tags }}
+              <span class="photo-post-tags">
+                {{ range .Params.tags }}<span class="photo-tag">{{ . }}</span>{{ end }}
+              </span>
+              {{ end }}
+            </div>
+          </header>
+
+          {{ if .Params.photos }}
+          <div class="photo-grid">
+            {{ range .Params.photos }}
+            <figure class="photo-figure">
+              <a href="{{ .url }}" target="_blank" rel="noopener">
+                <img src="{{ .url }}" alt="{{ .caption | default "" }}" loading="lazy">
+              </a>
+              {{ if .caption }}
+              <figcaption>{{ .caption }}</figcaption>
+              {{ end }}
+            </figure>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if .Content }}
+          <div class="photo-post-body">
+            {{ .Content }}
+          </div>
+          {{ end }}
+
+          <nav class="photo-post-nav">
+            <a href="/photos/">← 返回相册</a>
+          </nav>
+        </article>
+      </main>
+
+      {{ partial "footer.html" . }}
+    </div>
+  </body>
+</html>
