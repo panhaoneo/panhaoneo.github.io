@@ -16,6 +16,7 @@ tags = ["now", "movie"]
    - [ ] https://anthropic.skilljar.com/claude-101/
    - [ ] https://themodernsoftware.dev
    - [ ] https://github.com/anthropics/prompt-eng-interactive-tutorial
+   - [ ] https://github.com/shareAI-lab/learn-claude-code 从零开始写agent，值得一看。
 
 
 # What I'm reading
