@@ -68,3 +68,10 @@ tags = ["now", "movie"]
 
 # post
 - [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
+
+
+# 最近想做的事 灵感收集
+
+- 【长期】每日一份财报，学习财报指标。
+- 【中期】整理小孩子每个阶段需要的东西和育儿知识
+- 【长期】尝试阅读故事，然后在小红书去复述故事。
