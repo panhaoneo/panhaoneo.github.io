@@ -6,72 +6,57 @@ description = "now,what I'm doing"
 tags = ["now", "movie"]
 +++
 
+# 目标
 
-# What I'm doing
-- [leveldb](https://github.com/google/leveldb) 2024年8月22日 read and learn this code
-- 20250114
-   - [ ] [AI Agent（智能体）技术白皮书（Google，2024）](https://arthurchiao.art/blog/ai-agent-white-paper-zh/ ) 
-   - [ ] [Paul Graham](https://paulgraham.com/articles.html)
-- 20260309 最近在学习AI的使用课程
-   - [ ] https://anthropic.skilljar.com/claude-101/
-   - [ ] https://themodernsoftware.dev
-   - [ ] https://github.com/anthropics/prompt-eng-interactive-tutorial
-   - [ ] https://github.com/shareAI-lab/learn-claude-code 从零开始写agent，值得一看。
+寻找超级成长股
 
+> 五年之约： 如果你真的热爱，坚持五年，等一轮牛市，等一批超级成长，你会知道什么是金钱盛宴。开启你的百倍之路吧。
+> —— 每日执行，每周复盘，每月检视，每年进化。
 
-# What I'm reading
-- [明朝那些事儿](https://book.douban.com/subject/7163250/) 2024年5月1日
-- [代码整洁之道](https://book.douban.com/subject/34986245/) 2024年7月21日
-- [巨人的陨落](https://book.douban.com/subject/26698660/) 2024年8月1日
-- [耶鲁小历史系列：美国小历史](https://book.douban.com/subject/27045325/) 2024年8月19日
-- [美国十讲](https://book.douban.com/subject/25777331/) 2024年8月19日
-- [千脑智能](https://book.douban.com/subject/36080515/) 2024年10月08日
-- [给青年诗人的信](https://book.douban.com/subject/26685994/) 2024年10月20日 一口气读完，值得回味。
-- [八十天环游地球](https://book.douban.com/subject/25897667/) 2024年12月30日 充满想象力和趣味的一本书，给侄子侄女买了一本。 Around the World in Eighty Days (Jules Verne), 1872 "Determination conquers all obstacles."
-- [额尔古纳河右岸](https://book.douban.com/subject/34432750/) 迟子建 我很喜欢的作家。
-- [踏着月光的行板](https://book.douban.com/subject/2327728/) 迟子建 娓娓道来
-- [柏林谍影](https://book.douban.com/subject/26389907/) 2025年2月19日 不好描述那种感觉，对话的时候很容易入迷进去，布局还可以。[书评](https://book.douban.com/review/8021988/)
-- [现代CPU性能分析与优化](https://book.douban.com/subject/36243215/) 尝试读一下英语版本。 中文资料：[perf-book-cn](https://weedge.github.io/perf-book-cn/zh/)
-  
-# What I'm watching TV/Movies
-- [我的阿勒泰](https://movie.douban.com/subject/36245596/) 2024年5月10日
-- [玫瑰的故事](https://movie.douban.com/subject/35665988/) 2024年6月11日
-- [去有风的地方](https://movie.douban.com/subject/35662223/) 2024年11月11日
-- wubba lubba dub dub
-- nothing
-- [走走停停](https://movie.douban.com/subject/35956190/) 2025年1月21日 奇怪，在这部电影看到了是枝裕和的感觉。
-- [兰闺喜事](https://movie.douban.com/subject/35682502/) 2025年2月19日 编辑的脑洞，有点武林外传的意思。
+# less is more 习惯
 
-# What I'm Listening
+## daily 日拱一卒
 
-- [起风了](https://www.bilibili.com/video/BV17t411b777/) 买辣椒也用券
-- [波西米亚狂想曲](https://www.bilibili.com/video/BV1Nz4y1R7km/) 牙叔
-- [We are the world](https://www.bilibili.com/video/BV1yb411v7gB/) Michael Jackson
-- [三葉のテーマ](https://www.bilibili.com/video/BV1vs411a7Cx/) 三叶的主题曲
-- [我不和你谈论](https://www.bilibili.com/video/BV1rg4y1B7P8/) 张悬
-- [Monday](https://www.bilibili.com/video/BV1sX4y1R7mh/) 窦靖童
-- [一场游戏一场梦](https://www.bilibili.com/video/BV12J411z7eL/) 王杰 关于离别
-- [スパークル(火花）](https://www.bilibili.com/video/BV14X4y1m7CQ) 
-- [眼泪落下之前](https://www.bilibili.com/video/BV14u4y1z7no) 汪苏泷
-- [热河](https://open.spotify.com/track/5XaCwy5ZR6exjlVj23okKz?si=RQzFQ8SBRYGzYo_5xAyevg) 李志
+| 时间  | 事项                   | 说明                                    |
+|:-----:|:-----------------------|:----------------------------------------|
+| 06:00 | 起床，小孩醒            | 保证精神状态饱满，这是学习的前提         |
+| 07:00 | 📺 新闻联播（必须）      | 了解时代在干什么，产业政策、周期拐点      |
+| 07:30 | 📚 深度学习时段 ①      | 精神状态最佳，研读财报/商业模式/行业研报 |
+| 09:00 | 💼 正常工作/交易时段   | 将学习所得应用于实际观察与决策          |
+| 10:00 | 📚 深度学习时段 ②      | 补足2小时学习量，阅读/视频/文章均可      |
+| 13:30 | ✍️ 思考与整理（30min+）  | 独处、手写、沉淀、反省、记录灵感            |
+| 15:00 | 📝 输出（知乎答题）      | 每天最少答1个金融板块问题，强制输出      |
+| 19:00 | 📺 新闻联播（重播/回顾） | 再次确认当日重要产业与政策信号          |
+| 21:30 | 🛌 就寝，不熬夜         | 保证次日精神状态，形成正向循环           |
 
-# What I'm Found
-- [查看ip网络协议的标准站RFC](https://datatracker.ietf.org/doc/html/rfc790)
-- [tcpdump](https://www.tcpdump.org/index.html#documentation)
-- [good blog jvns](http://jvns.ca)
-- [失控作者凯文凯利blog](https://kk.org/)
-- [一篇旧文：段永平的这200条思考，解释了他为什么既是卓越企业家，又是顶尖的投资大师](https://36kr.com/p/2060114940874370)
-- [Prompt大神李继刚的博客，网站风格极简](https://lijigang.com/)
-- [《纳瓦尔宝典》、《巴拉吉预言》作者合作的插画师的网站](https://visualizevalue.com/)
-- 洗碗的时候听播客，随意点了排行榜的，[知行小酒馆](https://www.xiaoyuzhoufm.com/episode/67b7f6c705a90dfd0de0e56f),采访一个艺术家[邱志杰](http://www.qiuzhijie.com/biolographnianbiao.htm),我关注了他的小红书。
-- [easyperf and cpu tuning book](https://easyperf.net/about_me/), [the book](https://github.com/dendibakh/perf-book/releases/tag/2.0_release) and [course perf-ninja](https://products.easyperf.net/perf-ninja)
+## 实践情况记录
 
-# post
-- [InterviewRecord 很好的采访片段记录](https://github.com/panhaoneo/InterviewRecord)
+- 新闻联播建议看央视13套或央视新闻App的文字版，重点不是看完全部内容，而是快速抓取产业政策、新兴产业、周期变化三类信号。
 
 
-# 最近想做的事 灵感收集
+## 每周超级成长股复盘（1家/周）
 
-- 【长期】每日一份财报，学习财报指标。
-- 【中期】整理小孩子每个阶段需要的东西和育儿知识
-- 【长期】尝试阅读故事，然后在小红书去复述故事。
+每周选定一家历史超级成长型公司，穷尽那个时代你能找到的所有信息，对照公司发展阶段与股价变化阶段，逐个分析。
+复盘维度清单
+
+[ ] 基本面与核心产品/服务演变
+[ ] 关键年份财报数据与指标变化
+[ ] 当年的投资者交流、调研纪要
+[ ] 信息披露与公告梳理
+[ ] 券商研报与市场共识变化
+[ ] 股价各阶段与催化事件对应关系
+[ ] 产业周期与政策环境背景
+
+
+# 心态
+
+| 序号 | 信念                    | 标签 | 状态 |
+|:----:|:------------------------|:----:|:----:|
+|  1   | 热爱投资，不只是为了赚钱 | 初心 | \[ ] |
+|  2   | 把投资当作专业行业对待  | 定位 | \[ ] |
+|  3   | 接受短期无反馈，相信复利 | 耐心 | \[ ] |
+|  4   | 坚持五年，等一轮牛市     | 周期 | \[ ] |
+|  5   | Never give up — 不放弃  | 信仰 | \[ ] |
+
+
+- 底线：如果某天实在无法完成全部，最低底线是：看新闻 + 30分钟学习 + 手写思考 + 1个知乎回答。四项缺一不可，这是系统的"最小可行单元"。
