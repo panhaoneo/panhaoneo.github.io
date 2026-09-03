@@ -15,4 +15,6 @@
 
 ### link
 - [识典古籍](https://www.shidianguji.com/)
-
+- [FindingGrowthStocks](https://panhaoneo.github.io/FindingGrowthStocks/)
+- [每日看板](https://panhaoneo.github.io/DailyBoard/)
+- [访谈记录](https://panhaoneo.github.io/InterviewRecord/)
