@@ -19,3 +19,4 @@
 - [每日看板](https://panhaoneo.github.io/DailyBoard/)
 - [访谈记录](https://panhaoneo.github.io/InterviewRecord/)
 - [核心阿尔法](https://panhaoneo.github.io/trend_alpha/)
+- [每日热点](https://panhaoneo.github.io/jingshui-claude/)
