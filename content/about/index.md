@@ -20,3 +20,7 @@
 - [访谈记录](https://panhaoneo.github.io/InterviewRecord/)
 - [核心阿尔法](https://panhaoneo.github.io/trend_alpha/)
 - [每日热点](https://panhaoneo.github.io/jingshui-claude/)
+
+### 第三方
+
+- [新浪财经研报入口](https://stock.finance.sina.com.cn/stock/go.php/vReport_List/kind/lastest/index.phtml)
