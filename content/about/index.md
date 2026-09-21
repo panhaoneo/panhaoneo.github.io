@@ -20,6 +20,7 @@
 - [访谈记录](https://panhaoneo.github.io/InterviewRecord/)
 - [核心阿尔法](https://panhaoneo.github.io/trend_alpha/)
 - [每日热点](https://panhaoneo.github.io/jingshui-claude/)
+- [研报数据库](https://panhaoneo.github.io/ResearchReport/)
 
 ### 第三方
 
