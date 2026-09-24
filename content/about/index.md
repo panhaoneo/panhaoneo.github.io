@@ -22,6 +22,8 @@
 - [每日热点](https://panhaoneo.github.io/jingshui-claude/)
 - [研报数据库](https://panhaoneo.github.io/ResearchReport/)
 
+
 ### 第三方
 
 - [新浪财经研报入口](https://stock.finance.sina.com.cn/stock/go.php/vReport_List/kind/lastest/index.phtml)
+- [echopai](https://app.echopai.com/)
