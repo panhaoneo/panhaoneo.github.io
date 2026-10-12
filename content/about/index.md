@@ -21,6 +21,7 @@
 - [核心阿尔法](https://panhaoneo.github.io/trend_alpha/)
 - [每日热点](https://panhaoneo.github.io/jingshui-claude/)
 - [研报数据库](https://panhaoneo.github.io/ResearchReport/)
+- [复盘看板](https://panhaoneo.github.io/ReviewGrowth)
 
 
 ### 第三方

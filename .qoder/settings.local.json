@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la ./content/ | head -50)",
+      "Bash(cd /Users/panhao01/Code/open/panhaoneo.github.io && node .claude/skills/stc/tools/cli.mjs check \"content/assistant/02_goals/投研学习路线图.md\" --profile for-document --anti-echo --json 2>&1 | python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d.get\\('antiEcho', d\\), ensure_ascii=False, indent=2\\)[:2000]\\)\")"
+    ]
+  }
+}
