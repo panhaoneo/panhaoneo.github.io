@@ -3,3 +3,4 @@
 themes/.DS_Store
 resources/
 public/
+.qoder/settings.local.json

@@ -2,7 +2,7 @@
   "version": 1,
   "decisions": [
     {
-      "id": "d304e02c5f74c3e323bb7df32f9c2cb835babf424564443b5a3d8f1d3d443b9f",
+      "id": "47d8f5580c66a134bb6384af450b723c1c53ca6a7e2ce3f42e5f94485e028351",
       "decision": "keep",
       "reason": "这句界定阶段一的验收范围：只考核习惯完成率，不要求深度研究。删掉会让读者误以为阶段一就要深研，违背渐进负荷设计。"
     }
