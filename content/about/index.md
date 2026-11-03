@@ -22,6 +22,7 @@
 - [每日热点](https://panhaoneo.github.io/jingshui-claude/)
 - [研报数据库](https://panhaoneo.github.io/ResearchReport/)
 - [复盘看板](https://panhaoneo.github.io/ReviewGrowth)
+- [趋势动物](https://panhaoneo.github.io/TrendAnimal/)
 
 
 ### 第三方
